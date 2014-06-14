@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D26E6A194CC8B700EE2A2C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E69194CC8B700EE2A2C /* main.swift */; };
+		B3D26E6C194CC8B700EE2A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */; };
+		B3D26E6E194CC8B700EE2A2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D26E6D194CC8B700EE2A2C /* Images.xcassets */; };
+		B3D26E71194CC8B700EE2A2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */; };
+		B3D26E7D194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3D26E77194CC8B700EE2A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3D26E5C194CC8B700EE2A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D26E63194CC8B700EE2A2C;
+			remoteInfo = "Great-Courses-Extractor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great-Courses-Extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D26E68194CC8B700EE2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D26E69194CC8B700EE2A2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3D26E6D194CC8B700EE2A2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3D26E70194CC8B700EE2A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Great-Courses-ExtractorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D26E7B194CC8B700EE2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_Courses_ExtractorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3D26E61194CC8B700EE2A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D26E73194CC8B700EE2A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3D26E5B194CC8B700EE2A2C = {
+			isa = PBXGroup;
+			children = (
+				B3D26E66194CC8B700EE2A2C /* Great-Courses-Extractor */,
+				B3D26E79194CC8B700EE2A2C /* Great-Courses-ExtractorTests */,
+				B3D26E65194CC8B700EE2A2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3D26E65194CC8B700EE2A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */,
+				B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D26E66194CC8B700EE2A2C /* Great-Courses-Extractor */ = {
+			isa = PBXGroup;
+			children = (
+				B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */,
+				B3D26E6D194CC8B700EE2A2C /* Images.xcassets */,
+				B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */,
+				B3D26E67194CC8B700EE2A2C /* Supporting Files */,
+			);
+			path = "Great-Courses-Extractor";
+			sourceTree = "<group>";
+		};
+		B3D26E67194CC8B700EE2A2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D26E68194CC8B700EE2A2C /* Info.plist */,
+				B3D26E69194CC8B700EE2A2C /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3D26E79194CC8B700EE2A2C /* Great-Courses-ExtractorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */,
+				B3D26E7A194CC8B700EE2A2C /* Supporting Files */,
+			);
+			path = "Great-Courses-ExtractorTests";
+			sourceTree = "<group>";
+		};
+		B3D26E7A194CC8B700EE2A2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D26E7B194CC8B700EE2A2C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3D26E63194CC8B700EE2A2C /* Great-Courses-Extractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D26E80194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-Extractor" */;
+			buildPhases = (
+				B3D26E60194CC8B700EE2A2C /* Sources */,
+				B3D26E61194CC8B700EE2A2C /* Frameworks */,
+				B3D26E62194CC8B700EE2A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Great-Courses-Extractor";
+			productName = "Great-Courses-Extractor";
+			productReference = B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3D26E75194CC8B700EE2A2C /* Great-Courses-ExtractorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D26E83194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-ExtractorTests" */;
+			buildPhases = (
+				B3D26E72194CC8B700EE2A2C /* Sources */,
+				B3D26E73194CC8B700EE2A2C /* Frameworks */,
+				B3D26E74194CC8B700EE2A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3D26E78194CC8B700EE2A2C /* PBXTargetDependency */,
+			);
+			name = "Great-Courses-ExtractorTests";
+			productName = "Great-Courses-ExtractorTests";
+			productReference = B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3D26E5C194CC8B700EE2A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Erik Larsen";
+				TargetAttributes = {
+					B3D26E63194CC8B700EE2A2C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B3D26E75194CC8B700EE2A2C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B3D26E63194CC8B700EE2A2C;
+					};
+				};
+			};
+			buildConfigurationList = B3D26E5F194CC8B700EE2A2C /* Build configuration list for PBXProject "Great-Courses-Extractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3D26E5B194CC8B700EE2A2C;
+			productRefGroup = B3D26E65194CC8B700EE2A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3D26E63194CC8B700EE2A2C /* Great-Courses-Extractor */,
+				B3D26E75194CC8B700EE2A2C /* Great-Courses-ExtractorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3D26E62194CC8B700EE2A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D26E6E194CC8B700EE2A2C /* Images.xcassets in Resources */,
+				B3D26E71194CC8B700EE2A2C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D26E74194CC8B700EE2A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3D26E60194CC8B700EE2A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D26E6C194CC8B700EE2A2C /* AppDelegate.swift in Sources */,
+				B3D26E6A194CC8B700EE2A2C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D26E72194CC8B700EE2A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D26E7D194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3D26E78194CC8B700EE2A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3D26E63194CC8B700EE2A2C /* Great-Courses-Extractor */;
+			targetProxy = B3D26E77194CC8B700EE2A2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3D26E70194CC8B700EE2A2C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3D26E7E194CC8B700EE2A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3D26E7F194CC8B700EE2A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3D26E81194CC8B700EE2A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3D26E82194CC8B700EE2A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3D26E84194CC8B700EE2A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Great-Courses-Extractor.app/Contents/MacOS/Great-Courses-Extractor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Great-Courses-ExtractorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B3D26E85194CC8B700EE2A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Great-Courses-Extractor.app/Contents/MacOS/Great-Courses-Extractor";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Great-Courses-ExtractorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3D26E5F194CC8B700EE2A2C /* Build configuration list for PBXProject "Great-Courses-Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D26E7E194CC8B700EE2A2C /* Debug */,
+				B3D26E7F194CC8B700EE2A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D26E80194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-Extractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D26E81194CC8B700EE2A2C /* Debug */,
+				B3D26E82194CC8B700EE2A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3D26E83194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-ExtractorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3D26E84194CC8B700EE2A2C /* Debug */,
+				B3D26E85194CC8B700EE2A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3D26E5C194CC8B700EE2A2C /* Project object */;
+}
