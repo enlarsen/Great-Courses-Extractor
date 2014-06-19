@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  Lecture.swift
 //  Great-Courses-Extractor
 //
 //  Created by Erik Larsen on 6/14/14.
@@ -27,21 +27,13 @@
 //  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+import Foundation
 import Cocoa
 
-class AppDelegate: NSObject, NSApplicationDelegate {
-                            
-    @IBOutlet var window: NSWindow
-
-
-    func applicationDidFinishLaunching(aNotification: NSNotification?) {
-        // Insert code here to initialize your application
-    }
-
-    func applicationWillTerminate(aNotification: NSNotification?) {
-        // Insert code here to tear down your application
-    }
-
+class Lecture: NSObject
+{
+    var number = 0
+    var title = ""
+    var lectureDescription = ""
 
 }
-

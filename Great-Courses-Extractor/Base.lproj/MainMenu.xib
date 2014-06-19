@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6157" systemVersion="14A237a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6157"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.17"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,12 +11,22 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Great_Courses_Extractor" customModuleProvider="target">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <arrayController objectClassName="Lecture" preservesSelection="NO" id="7fo-BE-GP7">
+            <declaredKeys>
+                <string>number</string>
+                <string>title</string>
+                <string>lectureDescription</string>
+            </declaredKeys>
+            <connections>
+                <binding destination="Gnv-6Y-80W" name="contentArray" keyPath="lectures" id="KYF-KW-pTX"/>
+            </connections>
+        </arrayController>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="Great-Courses-Extractor" id="1Xt-HY-uBw">
@@ -669,12 +679,170 @@
         <window title="Great-Courses-Extractor" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="contentRect" x="335" y="390" width="730" height="551"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="730" height="551"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-uk-JT8">
+                        <rect key="frame" x="-1" y="-1" width="737" height="553"/>
+                        <clipView key="contentView" id="hIe-1G-Gqi">
+                            <rect key="frame" x="1" y="17" width="238" height="117"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="vbA-QF-D7f" id="TT2-O7-fpL">
+                                    <rect key="frame" x="0.0" y="0.0" width="735" height="19"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <size key="intercellSpacing" width="3" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                    <tableColumns>
+                                        <tableColumn identifier="AutomaticTableColumnIdentifier.0" width="116" minWidth="40" maxWidth="1000" id="Qm2-Ll-w49">
+                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Lecture Number">
+                                                <font key="font" metaFont="smallSystem"/>
+                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                            </tableHeaderCell>
+                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="Nq1-0J-2vK">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                            <connections>
+                                                <binding destination="7fo-BE-GP7" name="value" keyPath="arrangedObjects.number" id="zKZ-zs-yDM"/>
+                                            </connections>
+                                        </tableColumn>
+                                        <tableColumn identifier="AutomaticTableColumnIdentifier.1" width="100" minWidth="40" maxWidth="1000" id="TF9-Ro-Pl1">
+                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Title">
+                                                <font key="font" metaFont="smallSystem"/>
+                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                            </tableHeaderCell>
+                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" id="3R2-re-PTY">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                            <connections>
+                                                <binding destination="7fo-BE-GP7" name="value" keyPath="arrangedObjects.title" id="e6W-18-3QE"/>
+                                            </connections>
+                                        </tableColumn>
+                                        <tableColumn editable="NO" width="510" minWidth="10" maxWidth="3.4028234663852886e+38" id="Yl5-ag-uYN">
+                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Description">
+                                                <font key="font" metaFont="smallSystem"/>
+                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                            </tableHeaderCell>
+                                            <textFieldCell key="dataCell" alignment="left" id="POd-Yj-kkX">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                            <connections>
+                                                <binding destination="7fo-BE-GP7" name="value" keyPath="arrangedObjects.lectureDescription" id="mcc-Qd-yDc"/>
+                                            </connections>
+                                        </tableColumn>
+                                    </tableColumns>
+                                    <connections>
+                                        <binding destination="7fo-BE-GP7" name="content" keyPath="arrangedObjects" id="cRX-Zs-HVc"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </clipView>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="0.25" horizontal="YES" id="Zfy-nE-SRV">
+                            <rect key="frame" x="1" y="119" width="223" height="15"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="iXz-lh-QRw">
+                            <rect key="frame" x="224" y="17" width="15" height="102"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </scroller>
+                        <tableHeaderView key="headerView" id="vbA-QF-D7f">
+                            <rect key="frame" x="0.0" y="0.0" width="238" height="17"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </tableHeaderView>
+                    </scrollView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PWW-uk-JT8" firstAttribute="top" secondItem="EiT-Mj-1SZ" secondAttribute="top" constant="-1" id="358-TT-C1v"/>
+                    <constraint firstAttribute="trailing" secondItem="PWW-uk-JT8" secondAttribute="trailing" constant="-6" id="GKP-iX-JL2"/>
+                    <constraint firstAttribute="bottom" secondItem="PWW-uk-JT8" secondAttribute="bottom" constant="-1" id="jLH-E8-IiO"/>
+                    <constraint firstItem="PWW-uk-JT8" firstAttribute="leading" secondItem="EiT-Mj-1SZ" secondAttribute="leading" constant="-1" id="lN0-Gi-mbm"/>
+                </constraints>
             </view>
+            <toolbar key="toolbar" implicitIdentifier="22E52692-F56A-4AC3-9E28-AE0B6D4D854D" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconOnly" sizeMode="regular" id="LTL-gM-T0Z">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="6205970B-6B22-474D-B7AA-32C6B88E45AE" label="Custom View" paletteLabel="Custom View" id="sib-dC-2p8" userLabel="Scrape">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="122" height="19"/>
+                        <size key="maxSize" width="122" height="19"/>
+                        <button key="view" verticalHuggingPriority="750" id="XOS-qi-tgs">
+                            <rect key="frame" x="0.0" y="0.0" width="122" height="19"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="roundRect" title="Scrape" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="B1L-mf-xYY">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="scrape:" target="Gnv-6Y-80W" id="7lS-OF-J5H"/>
+                            </connections>
+                        </button>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="L60-U6-9gn"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="gVc-7c-9MI"/>
+                    <toolbarItem implicitItemIdentifier="78EFAC56-E18F-470E-A0BA-D9AD9589A81A" label="URL" paletteLabel="URL" id="yYx-rJ-eWp">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="96" height="21"/>
+                        <size key="maxSize" width="584" height="37"/>
+                        <textField key="view" verticalHuggingPriority="750" id="dVY-0h-ZQi">
+                            <rect key="frame" x="78" y="16" width="584" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="gGa-eW-QFb">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="398E5119-70C9-48A0-AEB4-F7714E255DE0" label="Custom View" paletteLabel="Custom View" id="gRd-q2-s7D" userLabel="Add to files">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="82" height="20"/>
+                        <size key="maxSize" width="82" height="32"/>
+                        <button key="view" verticalHuggingPriority="750" id="lmT-8v-lac">
+                            <rect key="frame" x="0.0" y="14" width="82" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="roundRect" title="Add to Files..." bezelStyle="roundedRect" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Npc-oG-iQA">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="cellTitle"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="addToFiles:" target="Gnv-6Y-80W" id="t2N-RQ-3gP"/>
+                            </connections>
+                        </button>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="gVc-7c-9MI"/>
+                    <toolbarItem reference="yYx-rJ-eWp"/>
+                    <toolbarItem reference="gVc-7c-9MI"/>
+                    <toolbarItem reference="sib-dC-2p8"/>
+                    <toolbarItem reference="gVc-7c-9MI"/>
+                    <toolbarItem reference="gRd-q2-s7D"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <point key="canvasLocation" x="265" y="242.5"/>
         </window>
+        <viewController id="Gnv-6Y-80W" customClass="GreatCoursesViewController" customModule="Great_Courses_Extractor" customModuleProvider="target">
+            <connections>
+                <outlet property="urlTextField" destination="dVY-0h-ZQi" id="qXx-8h-2Oe"/>
+                <outlet property="window" destination="QvC-M9-y7g" id="Ua1-ve-qHe"/>
+            </connections>
+        </viewController>
+        <userDefaultsController representsSharedInstance="YES" id="H8o-u6-YgI"/>
     </objects>
 </document>

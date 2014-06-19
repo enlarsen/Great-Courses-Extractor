@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B334AABD1950BD0000C7E42B /* AtomicParsley in Resources */ = {isa = PBXBuildFile; fileRef = B334AABC1950BCBA00C7E42B /* AtomicParsley */; };
+		B350FE1219534FC100124CA9 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B350FE1119534FC100124CA9 /* ScriptingBridge.framework */; };
+		B35CB803194CD01900BB5205 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35CB802194CD01900BB5205 /* Lecture.swift */; };
 		B3D26E6A194CC8B700EE2A2C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E69194CC8B700EE2A2C /* main.swift */; };
 		B3D26E6C194CC8B700EE2A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */; };
 		B3D26E6E194CC8B700EE2A2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D26E6D194CC8B700EE2A2C /* Images.xcassets */; };
 		B3D26E71194CC8B700EE2A2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */; };
 		B3D26E7D194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */; };
+		B3D26E87194CC92300EE2A2C /* GreatCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E86194CC92300EE2A2C /* GreatCoursesViewController.swift */; };
+		B3D26E8F194CCA0500EE2A2C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8A194CCA0500EE2A2C /* TFHpple.m */; };
+		B3D26E90194CCA0500EE2A2C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8C194CCA0500EE2A2C /* TFHppleElement.m */; };
+		B3D26E91194CCA0500EE2A2C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8E194CCA0500EE2A2C /* XPathQuery.m */; };
+		B3D26E96194CCB4B00EE2A2C /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B334AABC1950BCBA00C7E42B /* AtomicParsley */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = AtomicParsley; path = ../AtomicParsley; sourceTree = "<group>"; };
+		B350FE1119534FC100124CA9 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		B35CB802194CD01900BB5205 /* Lecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
 		B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great-Courses-Extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D26E68194CC8B700EE2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D26E69194CC8B700EE2A2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -34,6 +45,17 @@
 		B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Great-Courses-ExtractorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D26E7B194CC8B700EE2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_Courses_ExtractorTests.swift; sourceTree = "<group>"; };
+		B3D26E86194CC92300EE2A2C /* GreatCoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatCoursesViewController.swift; sourceTree = "<group>"; };
+		B3D26E88194CCA0400EE2A2C /* Great-Courses-Extractor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Great-Courses-Extractor-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3D26E89194CCA0500EE2A2C /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		B3D26E8A194CCA0500EE2A2C /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B3D26E8B194CCA0500EE2A2C /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		B3D26E8C194CCA0500EE2A2C /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		B3D26E8D194CCA0500EE2A2C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B3D26E8E194CCA0500EE2A2C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		B3F34A2F19524A440026ED0C /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		B3F34A3019524BD80026ED0C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B350FE1219534FC100124CA9 /* ScriptingBridge.framework in Frameworks */,
+				B3D26E96194CCB4B00EE2A2C /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */,
+				B3D26E86194CC92300EE2A2C /* GreatCoursesViewController.swift */,
+				B35CB802194CD01900BB5205 /* Lecture.swift */,
+				B3F34A2F19524A440026ED0C /* Readme.md */,
+				B3F34A3019524BD80026ED0C /* LICENSE */,
 				B3D26E6D194CC8B700EE2A2C /* Images.xcassets */,
 				B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */,
 				B3D26E67194CC8B700EE2A2C /* Supporting Files */,
@@ -86,8 +114,13 @@
 		B3D26E67194CC8B700EE2A2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B334AABC1950BCBA00C7E42B /* AtomicParsley */,
+				B3D26E92194CCA0F00EE2A2C /* TFHpple */,
 				B3D26E68194CC8B700EE2A2C /* Info.plist */,
 				B3D26E69194CC8B700EE2A2C /* main.swift */,
+				B3D26E88194CCA0400EE2A2C /* Great-Courses-Extractor-Bridging-Header.h */,
+				B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */,
+				B350FE1119534FC100124CA9 /* ScriptingBridge.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -107,6 +140,19 @@
 				B3D26E7B194CC8B700EE2A2C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3D26E92194CCA0F00EE2A2C /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				B3D26E89194CCA0500EE2A2C /* TFHpple.h */,
+				B3D26E8A194CCA0500EE2A2C /* TFHpple.m */,
+				B3D26E8B194CCA0500EE2A2C /* TFHppleElement.h */,
+				B3D26E8C194CCA0500EE2A2C /* TFHppleElement.m */,
+				B3D26E8D194CCA0500EE2A2C /* XPathQuery.h */,
+				B3D26E8E194CCA0500EE2A2C /* XPathQuery.m */,
+			);
+			name = TFHpple;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B334AABD1950BD0000C7E42B /* AtomicParsley in Resources */,
 				B3D26E6E194CC8B700EE2A2C /* Images.xcassets in Resources */,
 				B3D26E71194CC8B700EE2A2C /* MainMenu.xib in Resources */,
 			);
@@ -208,8 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D26E87194CC92300EE2A2C /* GreatCoursesViewController.swift in Sources */,
 				B3D26E6C194CC8B700EE2A2C /* AppDelegate.swift in Sources */,
 				B3D26E6A194CC8B700EE2A2C /* main.swift in Sources */,
+				B3D26E8F194CCA0500EE2A2C /* TFHpple.m in Sources */,
+				B35CB803194CD01900BB5205 /* Lecture.swift in Sources */,
+				B3D26E91194CCA0500EE2A2C /* XPathQuery.m in Sources */,
+				B3D26E90194CCA0500EE2A2C /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +329,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -314,6 +371,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -324,10 +386,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Great-Courses-Extractor/Great-Courses-Extractor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,10 +400,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Great-Courses-Extractor/Great-Courses-Extractor-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -399,6 +466,7 @@
 				B3D26E82194CC8B700EE2A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D26E83194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-ExtractorTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +475,7 @@
 				B3D26E85194CC8B700EE2A2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
