@@ -36,7 +36,7 @@ class GreatCoursesViewController: NSViewController
 
     var htmlData : NSData?
     var url: NSURL?
-    var lectures: Lecture[] = []
+    var lectures: [Lecture] = []
     var seriesTitle: NSString = ""
     var lecturer = ""
     var serialQueue = dispatch_queue_create("com.elarsen.sublerQ", DISPATCH_QUEUE_SERIAL)
