@@ -7,46 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B334AABD1950BD0000C7E42B /* AtomicParsley in Resources */ = {isa = PBXBuildFile; fileRef = B334AABC1950BCBA00C7E42B /* AtomicParsley */; };
-		B350FE1219534FC100124CA9 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B350FE1119534FC100124CA9 /* ScriptingBridge.framework */; };
-		B35CB803194CD01900BB5205 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35CB802194CD01900BB5205 /* Lecture.swift */; };
-		B3D26E6A194CC8B700EE2A2C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E69194CC8B700EE2A2C /* main.swift */; };
-		B3D26E6C194CC8B700EE2A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */; };
-		B3D26E6E194CC8B700EE2A2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D26E6D194CC8B700EE2A2C /* Images.xcassets */; };
-		B3D26E71194CC8B700EE2A2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */; };
-		B3D26E7D194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */; };
-		B3D26E87194CC92300EE2A2C /* GreatCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E86194CC92300EE2A2C /* GreatCoursesViewController.swift */; };
-		B3D26E8F194CCA0500EE2A2C /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8A194CCA0500EE2A2C /* TFHpple.m */; };
-		B3D26E90194CCA0500EE2A2C /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8C194CCA0500EE2A2C /* TFHppleElement.m */; };
-		B3D26E91194CCA0500EE2A2C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8E194CCA0500EE2A2C /* XPathQuery.m */; };
-		B3D26E96194CCB4B00EE2A2C /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */; };
+		B3EE1D5F19E5A1B4006BACBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE1D5E19E5A1B4006BACBA /* main.m */; };
+		B3EE1D7C19E5A2EF006BACBA /* Lecture.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE1D7B19E5A2EF006BACBA /* Lecture.m */; };
+		B3EE1D8019E5A64F006BACBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3EE1D7F19E5A64F006BACBA /* MainMenu.xib */; };
+		B3EE1D8619E5C711006BACBA /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8A194CCA0500EE2A2C /* TFHpple.m */; };
+		B3EE1D8719E5C714006BACBA /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8C194CCA0500EE2A2C /* TFHppleElement.m */; };
+		B3EE1D8819E5C717006BACBA /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D26E8E194CCA0500EE2A2C /* XPathQuery.m */; };
+		B3EE1D8919E5C736006BACBA /* AtomicParsley in Resources */ = {isa = PBXBuildFile; fileRef = B334AABC1950BCBA00C7E42B /* AtomicParsley */; };
+		B3EE1D8A19E5C744006BACBA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */; };
+		B3EE1D8B19E5CD4A006BACBA /* GreatCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE1D7819E5A2D3006BACBA /* GreatCoursesViewController.m */; };
+		B3EE1D8D19E5CEE7006BACBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE1D5C19E5A1B4006BACBA /* AppDelegate.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B3D26E77194CC8B700EE2A2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B3D26E5C194CC8B700EE2A2C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3D26E63194CC8B700EE2A2C;
-			remoteInfo = "Great-Courses-Extractor";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B334AABC1950BCBA00C7E42B /* AtomicParsley */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = AtomicParsley; path = ../AtomicParsley; sourceTree = "<group>"; };
 		B350FE1119534FC100124CA9 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
-		B35CB802194CD01900BB5205 /* Lecture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
-		B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great-Courses-Extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3D26E68194CC8B700EE2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3D26E69194CC8B700EE2A2C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D26E6D194CC8B700EE2A2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B3D26E70194CC8B700EE2A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Great-Courses-ExtractorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3D26E7B194CC8B700EE2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Great_Courses_ExtractorTests.swift; sourceTree = "<group>"; };
-		B3D26E86194CC92300EE2A2C /* GreatCoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatCoursesViewController.swift; sourceTree = "<group>"; };
-		B3D26E88194CCA0400EE2A2C /* Great-Courses-Extractor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Great-Courses-Extractor-Bridging-Header.h"; sourceTree = "<group>"; };
 		B3D26E89194CCA0500EE2A2C /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		B3D26E8A194CCA0500EE2A2C /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
 		B3D26E8B194CCA0500EE2A2C /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
@@ -54,24 +30,26 @@
 		B3D26E8D194CCA0500EE2A2C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		B3D26E8E194CCA0500EE2A2C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		B3EE1D5719E5A1B4006BACBA /* Great-Courses-Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Great-Courses-Extractor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EE1D5B19E5A1B4006BACBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3EE1D5C19E5A1B4006BACBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3EE1D5E19E5A1B4006BACBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3EE1D7719E5A2D3006BACBA /* GreatCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreatCoursesViewController.h; sourceTree = "<group>"; };
+		B3EE1D7819E5A2D3006BACBA /* GreatCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreatCoursesViewController.m; sourceTree = "<group>"; };
+		B3EE1D7A19E5A2EF006BACBA /* Lecture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lecture.h; sourceTree = "<group>"; };
+		B3EE1D7B19E5A2EF006BACBA /* Lecture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lecture.m; sourceTree = "<group>"; };
+		B3EE1D7F19E5A64F006BACBA /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		B3EE1D8219E5C555006BACBA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3F34A2F19524A440026ED0C /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../Readme.md; sourceTree = "<group>"; };
 		B3F34A3019524BD80026ED0C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B3D26E61194CC8B700EE2A2C /* Frameworks */ = {
+		B3EE1D5419E5A1B4006BACBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B350FE1219534FC100124CA9 /* ScriptingBridge.framework in Frameworks */,
-				B3D26E96194CCB4B00EE2A2C /* libxml2.2.dylib in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3D26E73194CC8B700EE2A2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B3EE1D8A19E5C744006BACBA /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				B3D26E66194CC8B700EE2A2C /* Great-Courses-Extractor */,
-				B3D26E79194CC8B700EE2A2C /* Great-Courses-ExtractorTests */,
+				B3EE1D8119E5C4FB006BACBA /* Frameworks */,
 				B3D26E65194CC8B700EE2A2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +68,7 @@
 		B3D26E65194CC8B700EE2A2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */,
-				B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */,
+				B3EE1D5719E5A1B4006BACBA /* Great-Courses-Extractor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +76,16 @@
 		B3D26E66194CC8B700EE2A2C /* Great-Courses-Extractor */ = {
 			isa = PBXGroup;
 			children = (
-				B3D26E6B194CC8B700EE2A2C /* AppDelegate.swift */,
-				B3D26E86194CC92300EE2A2C /* GreatCoursesViewController.swift */,
-				B35CB802194CD01900BB5205 /* Lecture.swift */,
+				B3EE1D5B19E5A1B4006BACBA /* AppDelegate.h */,
+				B3EE1D5C19E5A1B4006BACBA /* AppDelegate.m */,
+				B3EE1D7719E5A2D3006BACBA /* GreatCoursesViewController.h */,
+				B3EE1D7819E5A2D3006BACBA /* GreatCoursesViewController.m */,
+				B3EE1D7A19E5A2EF006BACBA /* Lecture.h */,
+				B3EE1D7B19E5A2EF006BACBA /* Lecture.m */,
 				B3F34A2F19524A440026ED0C /* Readme.md */,
 				B3F34A3019524BD80026ED0C /* LICENSE */,
 				B3D26E6D194CC8B700EE2A2C /* Images.xcassets */,
-				B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */,
+				B3EE1D7F19E5A64F006BACBA /* MainMenu.xib */,
 				B3D26E67194CC8B700EE2A2C /* Supporting Files */,
 			);
 			path = "Great-Courses-Extractor";
@@ -114,30 +94,11 @@
 		B3D26E67194CC8B700EE2A2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3EE1D8219E5C555006BACBA /* Info.plist */,
 				B334AABC1950BCBA00C7E42B /* AtomicParsley */,
 				B3D26E92194CCA0F00EE2A2C /* TFHpple */,
-				B3D26E68194CC8B700EE2A2C /* Info.plist */,
-				B3D26E69194CC8B700EE2A2C /* main.swift */,
-				B3D26E88194CCA0400EE2A2C /* Great-Courses-Extractor-Bridging-Header.h */,
 				B3D26E95194CCB4B00EE2A2C /* libxml2.2.dylib */,
-				B350FE1119534FC100124CA9 /* ScriptingBridge.framework */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B3D26E79194CC8B700EE2A2C /* Great-Courses-ExtractorTests */ = {
-			isa = PBXGroup;
-			children = (
-				B3D26E7C194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift */,
-				B3D26E7A194CC8B700EE2A2C /* Supporting Files */,
-			);
-			path = "Great-Courses-ExtractorTests";
-			sourceTree = "<group>";
-		};
-		B3D26E7A194CC8B700EE2A2C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3D26E7B194CC8B700EE2A2C /* Info.plist */,
+				B3EE1D5E19E5A1B4006BACBA /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,16 +116,25 @@
 			name = TFHpple;
 			sourceTree = "<group>";
 		};
+		B3EE1D8119E5C4FB006BACBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B350FE1119534FC100124CA9 /* ScriptingBridge.framework */,
+			);
+			name = Frameworks;
+			path = "Great-Courses-Extractor";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B3D26E63194CC8B700EE2A2C /* Great-Courses-Extractor */ = {
+		B3EE1D5619E5A1B4006BACBA /* Great-Courses-Extractor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3D26E80194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-Extractor" */;
+			buildConfigurationList = B3EE1D7119E5A1B5006BACBA /* Build configuration list for PBXNativeTarget "Great-Courses-Extractor" */;
 			buildPhases = (
-				B3D26E60194CC8B700EE2A2C /* Sources */,
-				B3D26E61194CC8B700EE2A2C /* Frameworks */,
-				B3D26E62194CC8B700EE2A2C /* Resources */,
+				B3EE1D5319E5A1B4006BACBA /* Sources */,
+				B3EE1D5419E5A1B4006BACBA /* Frameworks */,
+				B3EE1D5519E5A1B4006BACBA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,26 +142,8 @@
 			);
 			name = "Great-Courses-Extractor";
 			productName = "Great-Courses-Extractor";
-			productReference = B3D26E64194CC8B700EE2A2C /* Great-Courses-Extractor.app */;
+			productReference = B3EE1D5719E5A1B4006BACBA /* Great-Courses-Extractor.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B3D26E75194CC8B700EE2A2C /* Great-Courses-ExtractorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3D26E83194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-ExtractorTests" */;
-			buildPhases = (
-				B3D26E72194CC8B700EE2A2C /* Sources */,
-				B3D26E73194CC8B700EE2A2C /* Frameworks */,
-				B3D26E74194CC8B700EE2A2C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3D26E78194CC8B700EE2A2C /* PBXTargetDependency */,
-			);
-			name = "Great-Courses-ExtractorTests";
-			productName = "Great-Courses-ExtractorTests";
-			productReference = B3D26E76194CC8B700EE2A2C /* Great-Courses-ExtractorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -199,15 +151,11 @@
 		B3D26E5C194CC8B700EE2A2C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Erik Larsen";
 				TargetAttributes = {
-					B3D26E63194CC8B700EE2A2C = {
-						CreatedOnToolsVersion = 6.0;
-					};
-					B3D26E75194CC8B700EE2A2C = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = B3D26E63194CC8B700EE2A2C;
+					B3EE1D5619E5A1B4006BACBA = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -224,75 +172,39 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B3D26E63194CC8B700EE2A2C /* Great-Courses-Extractor */,
-				B3D26E75194CC8B700EE2A2C /* Great-Courses-ExtractorTests */,
+				B3EE1D5619E5A1B4006BACBA /* Great-Courses-Extractor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3D26E62194CC8B700EE2A2C /* Resources */ = {
+		B3EE1D5519E5A1B4006BACBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B334AABD1950BD0000C7E42B /* AtomicParsley in Resources */,
-				B3D26E6E194CC8B700EE2A2C /* Images.xcassets in Resources */,
-				B3D26E71194CC8B700EE2A2C /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3D26E74194CC8B700EE2A2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B3EE1D8919E5C736006BACBA /* AtomicParsley in Resources */,
+				B3EE1D8019E5A64F006BACBA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B3D26E60194CC8B700EE2A2C /* Sources */ = {
+		B3EE1D5319E5A1B4006BACBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D26E87194CC92300EE2A2C /* GreatCoursesViewController.swift in Sources */,
-				B3D26E6C194CC8B700EE2A2C /* AppDelegate.swift in Sources */,
-				B3D26E6A194CC8B700EE2A2C /* main.swift in Sources */,
-				B3D26E8F194CCA0500EE2A2C /* TFHpple.m in Sources */,
-				B35CB803194CD01900BB5205 /* Lecture.swift in Sources */,
-				B3D26E91194CCA0500EE2A2C /* XPathQuery.m in Sources */,
-				B3D26E90194CCA0500EE2A2C /* TFHppleElement.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3D26E72194CC8B700EE2A2C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3D26E7D194CC8B700EE2A2C /* Great_Courses_ExtractorTests.swift in Sources */,
+				B3EE1D8D19E5CEE7006BACBA /* AppDelegate.m in Sources */,
+				B3EE1D8719E5C714006BACBA /* TFHppleElement.m in Sources */,
+				B3EE1D8B19E5CD4A006BACBA /* GreatCoursesViewController.m in Sources */,
+				B3EE1D8819E5C717006BACBA /* XPathQuery.m in Sources */,
+				B3EE1D8619E5C711006BACBA /* TFHpple.m in Sources */,
+				B3EE1D7C19E5A2EF006BACBA /* Lecture.m in Sources */,
+				B3EE1D5F19E5A1B4006BACBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B3D26E78194CC8B700EE2A2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B3D26E63194CC8B700EE2A2C /* Great-Courses-Extractor */;
-			targetProxy = B3D26E77194CC8B700EE2A2C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B3D26E6F194CC8B700EE2A2C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3D26E70194CC8B700EE2A2C /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B3D26E7E194CC8B700EE2A2C /* Debug */ = {
@@ -334,7 +246,7 @@
 					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -376,74 +288,39 @@
 					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		B3D26E81194CC8B700EE2A2C /* Debug */ = {
+		B3EE1D7219E5A1B5006BACBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Great-Courses-Extractor/Great-Courses-Extractor-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		B3D26E82194CC8B700EE2A2C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Great-Courses-Extractor/Great-Courses-Extractor-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		B3D26E84194CC8B700EE2A2C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Great-Courses-Extractor.app/Contents/MacOS/Great-Courses-Extractor";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Great-Courses-ExtractorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
+				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
-		B3D26E85194CC8B700EE2A2C /* Release */ = {
+		B3EE1D7319E5A1B5006BACBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Great-Courses-Extractor.app/Contents/MacOS/Great-Courses-Extractor";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Great-Courses-ExtractorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
+				INFOPLIST_FILE = "Great-Courses-Extractor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -459,23 +336,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3D26E80194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-Extractor" */ = {
+		B3EE1D7119E5A1B5006BACBA /* Build configuration list for PBXNativeTarget "Great-Courses-Extractor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3D26E81194CC8B700EE2A2C /* Debug */,
-				B3D26E82194CC8B700EE2A2C /* Release */,
+				B3EE1D7219E5A1B5006BACBA /* Debug */,
+				B3EE1D7319E5A1B5006BACBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3D26E83194CC8B700EE2A2C /* Build configuration list for PBXNativeTarget "Great-Courses-ExtractorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3D26E84194CC8B700EE2A2C /* Debug */,
-				B3D26E85194CC8B700EE2A2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
